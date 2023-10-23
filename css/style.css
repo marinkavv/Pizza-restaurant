@@ -1,0 +1,174 @@
+/* FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffdf1;
+}
+
+/* MENU */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-bottom: 134px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 28px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #550312;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu li {
+  margin-right: 178px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+/* MAIN PAGE */
+
+.main-slide {
+  display: flex;
+  margin: 218px 0 40px 100px;
+}
+
+.textContainer {
+  margin-right: 100px;
+}
+
+.textContainer h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 15px;
+  color: var(--Chocolate, #550312);
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.textContainer h3 {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #333;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 73px;
+}
+
+.textContainer p {
+  width: 490px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* BUTTON */
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+}
+
+.ovalButton {
+  position: absolute;
+  width: 219px;
+  height: 105px;
+  background-color: var(--Chocolate, #550312);
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.buttonText {
+  color: var(--wheat, #fffdf1);
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.leafImage {
+  transform: translate(0, -80px);
+}
+
+/* ELLIPSE + PIZZA-PHOTO*/
+
+.ellipse {
+  width: 500px;
+  height: 500px;
+  margin-left: 60px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 4px 50px 0px rgba(159, 62, 62, 0.23),
+    -23px -23px 43px 0px #fffdf1 inset;
+}
+
+.pizzaPhoto {
+  height: 600px;
+  transform: translate(-25px, -100px);
+}
+
+/* CLOCK */
+
+.clock {
+  display: inline-flex;
+  align-items: center;
+  gap: 39px;
+  margin-left: 100px;
+}
+
+.clock li {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+/* SOCIAL MEDIA ICONS */
+
+.socialContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 45px 150px 0 0;
+}
+
+.socialContainer {
+  list-style-type: none;
+}
+
+.socialContainer img {
+  margin-right: 75px;
+}
+
+.socialContainer img:last-child {
+  margin-right: 0px;
+}
